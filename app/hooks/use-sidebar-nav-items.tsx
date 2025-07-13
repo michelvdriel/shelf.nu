@@ -111,12 +111,12 @@ export function useSidebarNavItems() {
       to: "/assets",
       Icon: PackageOpenIcon,
     },
-    {
-      type: "child",
-      title: "Kits",
-      to: "/kits",
-      Icon: BriefcaseConveyorBeltIcon,
-    },
+    // {
+    //   type: "child",
+    //   title: "Kits",
+    //   to: "/kits",
+    //   Icon: BriefcaseConveyorBeltIcon,
+    // },
     {
       type: "child",
       title: "Categories",
@@ -132,13 +132,13 @@ export function useSidebarNavItems() {
       Icon: TagsIcon,
       hidden: isBaseOrSelfService,
     },
-    {
-      type: "child",
-      title: "Locations",
-      to: "/locations",
-      Icon: MapPinIcon,
-      hidden: isBaseOrSelfService,
-    },
+    // {
+    //   type: "child",
+    //   title: "Locations",
+    //   to: "/locations",
+    //   Icon: MapPinIcon,
+    //   hidden: isBaseOrSelfService,
+    // },
     {
       type: "parent",
       title: "Bookings",
