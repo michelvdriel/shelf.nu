@@ -98,13 +98,13 @@ export function useSidebarNavItems() {
       type: "label",
       title: "Asset management",
     },
-    {
-      type: "child",
-      title: "Dashboard",
-      to: "/dashboard",
-      Icon: ChartNoAxesCombinedIcon,
-      hidden: isBaseOrSelfService,
-    },
+    // {
+    //   type: "child",
+    //   title: "Dashboard",
+    //   to: "/dashboard",
+    //   Icon: ChartNoAxesCombinedIcon,
+    //   hidden: isBaseOrSelfService,
+    // },
     {
       type: "child",
       title: "Assets",
@@ -215,27 +215,27 @@ export function useSidebarNavItems() {
   ];
 
   const bottomMenuItems: NavItem[] = [
-    {
-      type: "child",
-      title: "Asset labels",
-      to: `https://store.shelf.nu/?ref=shelf_webapp_sidebar`,
-      Icon: QrCodeIcon,
-      target: "_blank",
-    },
-    {
-      type: "child",
-      title: "QR Scanner",
-      to: "/scanner",
-      Icon: ScanBarcodeIcon,
-    },
-    {
-      type: "button",
-      title: "Questions/Feedback",
-      Icon: MessageCircleIcon,
-      onClick: () => {
-        Crisp.chat.open();
-      },
-    },
+    // {
+    //   type: "child",
+    //   title: "Asset labels",
+    //   to: `https://store.shelf.nu/?ref=shelf_webapp_sidebar`,
+    //   Icon: QrCodeIcon,
+    //   target: "_blank",
+    // },
+    // {
+    //   type: "child",
+    //   title: "QR Scanner",
+    //   to: "/scanner",
+    //   Icon: ScanBarcodeIcon,
+    // },
+    // {
+    //   type: "button",
+    //   title: "Questions/Feedback",
+    //   Icon: MessageCircleIcon,
+    //   onClick: () => {
+    //     Crisp.chat.open();
+    //   },
+    // },
   ];
 
   return {
