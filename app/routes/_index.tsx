@@ -3,7 +3,7 @@ import { redirect } from "@remix-run/node";
 
 export const loader = ({ context }: LoaderFunctionArgs) => {
   if (context.isAuthenticated) {
-    return redirect("/assets");
+    return redirect("/assets?view=availability");
   }
 
   return redirect("/login");

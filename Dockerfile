@@ -17,6 +17,7 @@ RUN apt-get update && \
 FROM base AS deps
 
 ADD package.json .
+
 RUN npm install --include=dev
 
 # Build the app and setup production node_modules
@@ -40,5 +41,6 @@ COPY --from=build /src/package.json /src/package.json
 COPY --from=build /src/start.sh /src/start.sh
 
 RUN chmod +x /src/start.sh
+
 
 ENTRYPOINT [ "/src/start.sh" ]

@@ -28,7 +28,7 @@ import { FULL_CALENDAR_LICENSE_KEY } from "~/utils/env";
 import { useCalendarNowIndicatorFix } from "../assets/assets-index/use-calendar-now-indicator-fix";
 
 const DEFAULT_CALENDAR_VIEW = "resourceTimelineDay";
-const TARGET_CALENDAR_VIEW = "resourceTimelineMonth";
+const TARGET_CALENDAR_VIEW = "resourceTimelineDay";
 
 export default function AvailabilityCalendar({
   resources,

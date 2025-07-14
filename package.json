@@ -42,7 +42,8 @@
     "precommit": "npm run db:generate-type && npm run lint:fix && npm run format && npm run typecheck"
   },
   "overrides": {
-    "cross-spawn": "~7.0.6"
+    "cross-spawn": "~7.0.6",
+    "rollup": "4.44.2"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.17",
