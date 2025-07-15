@@ -1,4 +1,4 @@
-# Shelf.nu
+# Shelf.nu for Appelpop
 
 <a href="https://www.shelf.nu/" target="_blank">
 <img width="100%" src="./public/static/images/readme-cover.jpg" alt="Shelf.nu Cover" />
