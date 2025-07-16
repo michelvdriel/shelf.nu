@@ -157,13 +157,13 @@ export function useSidebarNavItems() {
         },
       ],
     },
-    {
-      type: "child",
-      title: "Reminders",
-      Icon: AlarmClockIcon,
-      hidden: isBaseOrSelfService,
-      to: "/reminders",
-    },
+    // {
+    //   type: "child",
+    //   title: "Reminders",
+    //   Icon: AlarmClockIcon,
+    //   hidden: isBaseOrSelfService,
+    //   to: "/reminders",
+    // },
     {
       type: "label",
       title: "Organization",
