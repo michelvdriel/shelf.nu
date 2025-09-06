@@ -191,7 +191,7 @@ export default function AvailabilityCalendar({
                 { weekday: "short", day: "2-digit" },
               ]}
               slotLabelClassNames="font-normal text-gray-600"
-              slotMinWidth={100}
+              slotMinWidth={25}
               resourceLabelContent={resourceLabelContent}
               eventContent={renderEventCard}
               eventClassNames={(eventInfo) => {
