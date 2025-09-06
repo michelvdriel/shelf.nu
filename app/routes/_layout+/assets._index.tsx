@@ -10,6 +10,7 @@ import { useLoaderData } from "@remix-run/react";
 import { z } from "zod";
 import { AssetsList } from "~/components/assets/assets-index/assets-list";
 import { ImportButton } from "~/components/assets/import-button";
+import CreateBookingDialog from "~/components/booking/create-booking-dialog";
 import Header from "~/components/layout/header";
 import { Button } from "~/components/shared/button";
 import When from "~/components/when/when";
@@ -234,6 +235,17 @@ export default function AssetIndexPage() {
             >
               New asset
             </Button>
+            <CreateBookingDialog
+                        trigger={
+                          <Button
+                            aria-label="new booking"
+                            data-test-id="createNewBooking"
+                            prefetch="none"
+                          >
+                            New booking
+                          </Button>
+                        }
+                      />
           </>
         </When>
       </Header>
